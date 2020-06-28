@@ -1,0 +1,19 @@
+.mainForm{
+    & .form{
+        text-align: center;
+        .method{
+            margin: 5px;
+        }
+    }
+     
+    
+}
+
+.fullMethod{
+    width: 90%;
+    height: 40%;
+    min-height: 200px;
+    min-width: 1200px;
+    border-style: inset;
+    margin: 10px;
+}
