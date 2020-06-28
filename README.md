@@ -6,7 +6,7 @@
 
 ### Links and Resources
 
-- [submission PR]()
+- [submission PR](https://github.com/batool-alali-401-advanced-javascript/RESTy/pull/1)
 - [ci/cd]()
 
 ### Setup
