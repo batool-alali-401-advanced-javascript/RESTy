@@ -7,8 +7,8 @@
 ### Links and Resources
 
 - [submission PR](https://github.com/batool-alali-401-advanced-javascript/RESTy/pull/1)
-- [ci/cd]()
-- [netlify]()
+- [ci/cd](https://github.com/batool-alali-401-advanced-javascript/RESTy/runs/818488954)
+- [netlify](https://resty2020.netlify.app/)
 - [gh-page]()
 
 ### Setup
