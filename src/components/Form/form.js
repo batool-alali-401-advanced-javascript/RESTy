@@ -2,7 +2,7 @@ import React from "react";
 import './form.scss';
 
 
-class Main extends React.Component {
+class Form extends React.Component {
     constructor(props) {
       super(props);
       this.state = { 
@@ -43,12 +43,12 @@ class Main extends React.Component {
             <div className='form'>
                 <label className="urlLabel">URL:</label>
                 <input type="text" className='urlInput' onChange={this.handleChange} />
-                <button className='method' onClick={this.handleClickGo}>Go!</button>
+                <button className='method' id='go' onClick={this.handleClickGo}>Go!</button>
                 <br></br>
-                <button className='method' onClick={this.handleClickGet}>GET</button>
-                <button className='method' onClick={this.handleClickPost}>POST</button>
-                <button className='method' onClick={this.handleClickPut}>PUT</button>
-                <button className='method' onClick={this.handleClickDelete}>DELETE</button>
+                <button className='method' id='get' onClick={this.handleClickGet}>GET</button>
+                <button className='method' id='post' onClick={this.handleClickPost}>POST</button>
+                <button className='method' id='put' onClick={this.handleClickPut}>PUT</button>
+                <button className='method' id='delete' onClick={this.handleClickDelete}>DELETE</button>
             </div>
        
         <div className='fullMethod'>{this.state.full}</div>
@@ -62,4 +62,4 @@ class Main extends React.Component {
 
 
   
-  export default Main;
+  export default Form;
