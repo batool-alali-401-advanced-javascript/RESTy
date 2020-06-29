@@ -1,4 +1,4 @@
-# LAB - Class 26
+# LAB - Class 27
 
 ## Project: RESTy
 
@@ -8,6 +8,8 @@
 
 - [submission PR](https://github.com/batool-alali-401-advanced-javascript/RESTy/pull/1)
 - [ci/cd]()
+- [netlify]()
+- [gh-page]()
 
 ### Setup
 ` $npx i `
