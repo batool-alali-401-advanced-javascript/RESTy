@@ -6,8 +6,8 @@ class Form extends React.Component {
     constructor(props) {
       super(props);
       this.state = { 
-          url: 'get',
-          method:'',
+          url: '',
+          method:'get',
           full:{},
      };
     }
@@ -20,12 +20,23 @@ class Form extends React.Component {
 
     };
 
-    handleClickGo = (e) => {
-        let request ={
-            url:this.state.url,
-            method:this.state.method
-        }
-        this.setState({full: request})
+    handleClickGo = async (e) => {
+        // let request ={
+        //     url:this.state.url,
+        //     method:this.state.method ? this.state.method : 'get' ,
+        // }
+        // this.setState({full: request});
+        try {
+            console.log('method', this.state.method)
+            if (this.state.method==='get'){
+                const raw = await fetch(this.state.url);
+                const data = await raw.json();
+                this.props.handler(data);
+            }else this.props.handler('Error');
+            
+          } catch (e) {
+            console.log(e);
+          }
     };
 
     handleClickGet = (e) => {
@@ -55,7 +66,7 @@ class Form extends React.Component {
                 <button className='method' id='delete' onClick={this.handleClickDelete}>DELETE</button>
             </div>
        
-    <div className='fullMethod'>{this.state.full.method} {this.state.full.url}</div>
+    {/* <div className='fullMethod'>{this.state.full.method} {this.state.full.url}</div> */}
 
 
 
