@@ -6,9 +6,9 @@ class Form extends React.Component {
     constructor(props) {
       super(props);
       this.state = { 
-          url: '',
+          url: 'get',
           method:'',
-          full:'',
+          full:{},
      };
     }
 
@@ -21,7 +21,11 @@ class Form extends React.Component {
     };
 
     handleClickGo = (e) => {
-        this.setState({full: `${this.state.method}     ${this.state.url} `})
+        let request ={
+            url:this.state.url,
+            method:this.state.method
+        }
+        this.setState({full: request})
     };
 
     handleClickGet = (e) => {
@@ -51,7 +55,7 @@ class Form extends React.Component {
                 <button className='method' id='delete' onClick={this.handleClickDelete}>DELETE</button>
             </div>
        
-        <div className='fullMethod'>{this.state.full}</div>
+    <div className='fullMethod'>{this.state.full.method} {this.state.full.url}</div>
 
 
 

@@ -47,7 +47,7 @@ describe('<Form/>', () => {
         const button = form.find('#delete');
         button.simulate('click');
         go.simulate('click');
-        expect(form.state('full')).toBe("delete     http://localhost:3000 ");
+        expect(form.state('full')).toStrictEqual({"method": "delete", "url": "http://localhost:3000"});
       });
 
 

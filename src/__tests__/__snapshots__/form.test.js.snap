@@ -57,7 +57,7 @@ exports[`<Form/> Renders correctly 1`] = `
   <div
     className="fullMethod"
   >
-    
+     
   </div>
 </main>
 `;
