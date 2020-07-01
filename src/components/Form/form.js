@@ -21,11 +21,6 @@ class Form extends React.Component {
     };
 
     handleClickGo = async (e) => {
-        // let request ={
-        //     url:this.state.url,
-        //     method:this.state.method ? this.state.method : 'get' ,
-        // }
-        // this.setState({full: request});
         try {
             console.log('method', this.state.method)
             if (this.state.method==='get'){
@@ -65,10 +60,7 @@ class Form extends React.Component {
                 <button className='method' id='put' onClick={this.handleClickPut}>PUT</button>
                 <button className='method' id='delete' onClick={this.handleClickDelete}>DELETE</button>
             </div>
-       
-    {/* <div className='fullMethod'>{this.state.full.method} {this.state.full.url}</div> */}
-
-
+      
 
       </main>
     );
