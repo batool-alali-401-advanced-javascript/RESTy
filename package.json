@@ -39,7 +39,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "/",
+  "homepage": "https://batool-alali-401-advanced-javascript.github.io/RESTy/",
   "devDependencies": {
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
