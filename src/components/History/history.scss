@@ -1,0 +1,47 @@
+@import '../../base.scss';
+
+#history {
+    h2 {
+      text-align: center;
+    }
+  }
+  
+  .mini-history {
+    width: 23vw;
+  
+  
+    h3 {
+      text-align: center;
+      margin: $spacing / 2 auto;
+  
+    }
+  
+    ul {
+    
+      overflow: auto;
+      height: 40vh;
+  
+      li {
+        list-style-type: none;
+        padding: $spacing;
+        border: 2px solid;
+        margin: 0;
+        background-color: white;
+        overflow: auto;
+      }
+  
+      .selected-history,
+      .selected-history:hover {
+        color: white;
+        background-color: $darkBlue;
+      }
+    }
+  
+  }
+  
+
+  .big-history {
+    .results {
+      min-height: 200px;
+    }
+  }

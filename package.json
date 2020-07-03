@@ -13,6 +13,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-json-pretty": "^2.2.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1"
   },
   "scripts": {
@@ -38,7 +39,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://batool-alali-401-advanced-javascript.github.io/RESTy/",
+  "homepage": "/",
   "devDependencies": {
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",

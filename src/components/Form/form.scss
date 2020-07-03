@@ -17,3 +17,44 @@
     border-style: inset;
     margin: 10px;
 }
+
+textarea {
+    resize: none;
+  }
+
+
+label {
+    display: block;
+    text-align: center;
+}
+
+
+.url-textbox {
+  width: 69.5%;
+  overflow: hidden;
+}
+
+.reqBody-textbox {
+  width: 70.75%;
+  height: 10em;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+}
+
+.req-type {
+  text-align: center;
+  button {
+    background-color: #004680;
+    color: white;
+
+    &:hover {
+      background-color: #3f6181;
+      cursor: pointer;
+    }
+  }
+
+  
+}
+

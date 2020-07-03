@@ -1,15 +1,8 @@
-export function If(props) {
-    const { condition, children } = props;
-  
-    if (condition)
-      return children;
-  
-    return null;
-  }
-  
-  // Opposite of if
-  export function Unless(props) {
-    const { condition, children } = props;
-  
-    return !condition ? children : null;
-  }
+import React from 'react';
+
+function If(props) {
+  if (props.condition) return <>{props.children}</>;
+  else return null;
+}
+
+export default If;
