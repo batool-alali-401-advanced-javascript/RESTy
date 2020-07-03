@@ -6,8 +6,8 @@
 
 ### Links and Resources
 
-- [submission PR](https://github.com/batool-alali-401-advanced-javascript/RESTy/pull/8)
-- [netlify](https://resty2020.netlify.app/)
+- [submission PR](https://github.com/batool-alali-401-advanced-javascript/RESTy/pull/11)
+- [netlify](https://restyv2.netlify.app/)
 - [gh-page](https://batool-alali-401-advanced-javascript.github.io/RESTy/)
 
 ### Setup
@@ -18,4 +18,4 @@
 
 
 #### UML
-![UML Diagram](UML1.jpg)
+![UML Diagram](UML2.jpg)
